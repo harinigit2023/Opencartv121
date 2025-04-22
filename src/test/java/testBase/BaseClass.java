@@ -72,7 +72,7 @@ public class BaseClass {
 			default:System.out.println("no matching browser");return;
 			}
 			
-		URI uri = URI.create("http://192.168.1.3:4444/wd/hub");
+		URI uri = URI.create("http://192.168.1.6:4444/wd/hub");
 			driver = new RemoteWebDriver(uri.toURL(), capabilities);
 			
 		}
